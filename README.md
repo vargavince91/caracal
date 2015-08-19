@@ -1,1 +1,3 @@
+![Caracal](caracal.svg)
+
 # caracal
