@@ -11,7 +11,7 @@
 
 1 Download `.tar.gz` and uncompress it.
 ```bash
-$ mkdir /opt/clion && tar -xzf clion-x.y.tar.gz -C /opt/clion # x.y is the version number of CLion
+$ mkdir /opt/clion && tar -xzf clion-x.y.tar.gz -C /opt/clion
 ```
 2 Add `opt` folder to [path](http://unix.stackexchange.com/questions/26047/how-to-correctly-add-a-path-to-path).
 ```
