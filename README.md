@@ -10,14 +10,14 @@
 > This powerful IDE helps you develop in C and C++ on Linux, enhancing your productivity with a smart editor, code quality assurance, automated refactorings, and deep integration with CMake build system.
 
 1. Download `.tar.gz` and uncompress it.
-```bash
-$ mkdir /opt/clion && tar -xzf clion-x.y.tar.gz -C /opt/clion # x.y is the version number of CLion
-```
+    ```bash
+    $ mkdir /opt/clion && tar -xzf clion-x.y.tar.gz -C /opt/clion # x.y is the version number of CLion
+    ```
 1. Add `opt` folder to [path](http://unix.stackexchange.com/questions/26047/how-to-correctly-add-a-path-to-path).
-```
-export PATH=$PATH:/opt/clion/clion-x.y/bin/
-alias clion='clion.sh'
-```
+    ```
+    export PATH=$PATH:/opt/clion/clion-x.y/bin/
+    alias clion='clion.sh'
+    ```
 1. Enjoy `clion`!
 
 
