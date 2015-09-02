@@ -5,6 +5,22 @@
 > The caracal /ˈkærəkæl/ is a medium-sized wild cat that is around one metre long. The caracal is sometimes called the desert lynx or African lynx, but it is not a member of the Lynx genus.
 > *[Wikipedia](https://en.wikipedia.org/wiki/Caracal)*
 
+## Install [CLion](https://www.jetbrains.com/clion/)
+
+> This powerful IDE helps you develop in C and C++ on Linux, enhancing your productivity with a smart editor, code quality assurance, automated refactorings, and deep integration with CMake build system.
+
+1. Download `.tar.gz` and uncompress it.
+```bash
+$ mkdir /opt/clion && tar -xzf clion-x.y.tar.gz -C /opt/clion # x.y is the version number of CLion
+```
+1. Add `opt` folder to [path](http://unix.stackexchange.com/questions/26047/how-to-correctly-add-a-path-to-path).
+```
+export PATH=$PATH:/opt/clion/clion-x.y/bin/
+alias clion='clion.sh'
+```
+1. Enjoy `clion`!
+
+
 ## GCC
 
 > [GCC](https://gcc.gnu.org/), the GNU Compiler Collection. GCC used to stand for the GNU C Compiler, but since the compiler supports several other languages aside from C, it now stands for the GNU Compiler Collection.
